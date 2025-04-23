@@ -20,3 +20,11 @@ This project demonstrates an end-to-end machine learning pipeline to detect frau
   - Neural Network (MLPClassifier)
 - Model evaluation using confusion matrix, accuracy, recall, precision, F1-score
 - Final model comparison table and bar plots
+
+## 📁 Dataset
+
+The dataset used in this project is the **Credit Card Fraud Detection** dataset from [Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud).
+
+> ⚠️ **Note:** The CSV file is too large to upload to GitHub (25MB limit).  
+> Please download it manually from the Kaggle link above and place it in the same folder as the notebook.
+
