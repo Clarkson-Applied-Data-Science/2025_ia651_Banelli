@@ -37,6 +37,7 @@ To develop and evaluate multiple machine learning models that accurately detect 
 - `Time`, `Amount`  
 - `V1` to `V28`: Anonymized principal components via PCA  
 - `Class`: Target (0 = Non-Fraud, 1 = Fraud)
+![Original Class Distribution](Classs%20distribution%20original%20Data.png)
 
 ---
 
