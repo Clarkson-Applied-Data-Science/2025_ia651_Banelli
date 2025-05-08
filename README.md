@@ -217,3 +217,18 @@ Among all the evaluated models, Random Forest provided the most consistent resul
 
 
 ---
+
+## 🔮 Future Work
+
+Although the current models achieved strong performance, there are several opportunities to improve and extend this work in future iterations:
+
+- **Real-Time Detection:** Integrate the best-performing model into a real-time system for continuous fraud monitoring.
+- **Deep Learning Models:** Experiment with LSTM, GRU, or Transformer-based models to capture sequential patterns in transaction data.
+- **Explainability Tools:** Utilize SHAP or LIME to interpret model outputs and improve transparency in predictions.
+- **Advanced Feature Engineering:** Derive behavioral or time-based features to better capture fraud tendencies.
+- **Cost-Sensitive Learning:** Introduce class-weighting or custom loss functions to reduce the cost of false negatives.
+- **Model Stacking:** Combine classifiers (e.g., Random Forest + XGBoost + Logistic Regression) using ensemble learning.
+- **Unsupervised Anomaly Detection:** Apply Isolation Forests or Autoencoders to detect outliers without needing labeled data.
+
+These ideas pave the way for a more robust and production-ready fraud detection system.
+
