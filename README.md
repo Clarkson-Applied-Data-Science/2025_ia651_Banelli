@@ -42,7 +42,15 @@ To develop and evaluate multiple machine learning models that accurately detect 
 
 ## PROCESS OVERVIEW
 
-- **Exploratory Data Analysis (EDA):** Visualized class imbalance, feature correlations, and fraud indicators  
+- **Exploratory Data Analysis (EDA):** Visualized class imbalance, feature correlations, and fraud indicators
+
+ ### Correlation Heatmap
+
+The heatmap below shows how features in the dataset are correlated with each other.  
+This helps identify which variables might be most useful in detecting fraudulent transactions.
+
+![Correlation Heatmap](correlation%20Heatmap.png)
+
 - **Data Preprocessing:** Applied `StandardScaler` and performed train-test split  
 - **Balancing Strategy:** Used SMOTE to address class imbalance in the training set  
 - **Modeling:** Trained five classification models  
