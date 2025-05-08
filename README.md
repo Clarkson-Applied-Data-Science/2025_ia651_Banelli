@@ -56,15 +56,25 @@ This helps identify which variables might be most useful in detecting fraudulent
 - **Modeling:** Trained five classification models  
 - **Hyperparameter Tuning:** Used `HalvingRandomSearchCV` and `RandomizedSearchCV`  
 - **Evaluation:** Confusion matrices, F1 Score, Recall, Precision, and ROC-AUC on both unbalanced and balanced test sets
+- ### 🔍 Top 5 Features Most Correlated with Fraud
 
- ### 🧪 After SMOTE – Balanced Class Distribution
+These features have the strongest relationship with fraudulent transactions based on correlation values.
 
-  | Class | Description      | Count    |
-  |-------|------------------|----------|
-  | 0     | Non-Fraudulent   | 227,451  |
-  | 1     | Fraudulent       | 227,451  |
+![Top Features Correlated with Fraud](Top%20Features%20Correlated%20with%20Fra....png)
 
----
+
+### 🧪 After SMOTE – Balanced Class Distribution
+
+| Class | Description    | Count   |
+|-------|----------------|---------|
+| 0     | Non-Fraudulent | 227,451 |
+| 1     | Fraudulent     | 227,451 |
+
+This plot shows the result of applying SMOTE to the training set, achieving a perfectly balanced class distribution.
+
+![Class Distribution After SMOTE](after%20balancing.png)
+
+
 
 ## MODELS IMPLEMENTED
 
