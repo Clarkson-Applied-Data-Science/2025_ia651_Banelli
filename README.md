@@ -117,4 +117,18 @@ The Random Forest model achieved the best overall balance of performance across 
 
 While other models like XGBoost and Logistic Regression performed well on individual metrics, Random Forest delivered the most consistent and reliable results across all evaluation criteria, making it the most suitable model for this fraud detection task.
 
+## Conclusion
+
+This project demonstrates the effective use of machine learning techniques to tackle the challenge of credit card fraud detection using a highly imbalanced dataset. After extensive experimentation and model comparison, the **Random Forest Classifier** emerged as the best-performing model with:
+
+- **Accuracy**: 99.82%  
+- **Recall**: 89.80%  
+- **F1 Score**: 63.08%  
+- **ROC-AUC**: 94.82%
+
+Key steps included applying **SMOTE** to balance the dataset, performing **feature scaling**, and using **cross-validation** and **hyperparameter tuning** to improve generalization. Exploratory Data Analysis (EDA) and a correlation heatmap provided insights into feature relationships and fraud patterns.
+
+Among all the evaluated models, Random Forest provided the most consistent results across all key metrics, making it well-suited for deployment in real-world fraud detection systems where minimizing false negatives is crucial.
+
+
 ---
