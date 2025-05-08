@@ -114,6 +114,79 @@ Random Forest and XGBoost achieved the highest performance, particularly in Reca
 
 
 ---
+---
+
+## 🔍 Confusion Matrices – Model Performance
+
+Below are confusion matrices for each model evaluated on both the **unbalanced** and **SMOTE-balanced** test sets. These visualizations highlight the strengths and weaknesses of each classifier in detecting fraud.
+
+---
+
+### 🧪 Logistic Regression
+
+**Unbalanced Test Set**  
+![Logistic Regression Unbalanced](Logistic_Regression_ConfusionMatrix_unbalanced.png)
+
+**Balanced Test Set (SMOTE)**  
+![Logistic Regression Balanced](Logistic_Regression_ConfusionMatrix_balanced.png)
+
+---
+
+### 🧪 Decision Tree Classifier
+
+**Unbalanced Test Set**  
+![Decision Tree Unbalanced](decision%20tree%20matrix%20unbalanced.png)
+
+**Balanced Test Set (SMOTE)**  
+![Decision Tree Balanced](Decision_Tree_ConfusionMatrix_balanced.png)
+
+---
+
+### 🧪 Random Forest Classifier
+
+**Unbalanced Test Set**  
+![Random Forest Unbalanced](Random_Forest_ConfusionMatrix_unbalanced.png)
+
+**Balanced Test Set (SMOTE)**  
+![Random Forest Balanced](Random_Forest_ConfusionMatrix_balanced.png)
+
+---
+
+### 🧪 Support Vector Machine (SVC)
+
+**Unbalanced Test Set**  
+![SVC Unbalanced](SVC_ConfusionMatrix_unbalanced.png)
+
+**Balanced Test Set (SMOTE)**  
+![SVC Balanced](SVC_ConfusionMatrix_balanced.png)
+
+---
+
+### 🧪 XGBoost Classifier
+
+**Unbalanced Test Set**  
+![XGBoost Unbalanced](XGBoost_Classifier_ConfusionMatrix_unbalanced.png)
+
+**Balanced Test Set (SMOTE)**  
+![XGBoost Balanced](XGBoost_Classifier_ConfusionMatrix_balanced.png)
+
+---
+
+##  Final Visual Summary
+
+### ✅ Top Metrics Comparison Across Models
+
+This chart compares model performance based on F1 Score, Recall, and ROC-AUC, highlighting the most effective classifiers for fraud detection.
+
+![Top Metrics Comparison](top%20metrix%20graph.png)
+
+---
+
+### 🧾 Best Model Confusion Matrix (Random Forest – Unbalanced)
+
+Random Forest performed best overall. Here is its confusion matrix from the unbalanced test set:
+
+![Random Forest Unbalanced Confusion Matrix](Random_Forest_ConfusionMatrix_unbalanced.png)
 
 ##  BEST MODEL
 
